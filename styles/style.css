@@ -1,0 +1,22 @@
+.first-row{
+  background-color: white;
+
+}
+
+.second-row{
+  background-image: url('https://www.synnexcorp.com/wca/wp-content/uploads/sites/81/2019/04/WCA_Land_bkgrd-1.jpg');
+  /* background-position: 0,0; */
+  background-repeat: no-repeat;
+  /* width: 99vw;
+  height: 99vh; */
+  background-size: cover;
+}
+
+#instructions{
+  color: white;
+  background-color: transparent;
+}
+
+.footer{
+  background-color: #292B33;
+}

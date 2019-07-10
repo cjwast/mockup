@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>MSLA Activation Portal</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row first-row">
+      <div class="col-2"></div>
+      <div class="col-1">
+        <img src="https://www.synnex.com/westconcomstor/resources/images/Westcon-ComstorLogo.jpg" alt="westcon-image"
+          srcset="">
+      </div>
+      <div class="col-5"></div>
+      <div class="col-2"></div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <br>
+      </div>
+    </div>
+    <div class="second-row row">
+      <div class="col">
+        <div class="row justify-content-center">
+          <div class="col-10">
+            <div class="row">
+              <div class="col">
+                <div id="instructions" class="jumbotron">
+                  <h1 class="display-4">Instructions</h1>
+                  <p class="lead">If you want to be part of MSLA Cisco - Comstor model you should accept the terms and
+                    conditions of below documents.</p>
+                  <hr class="my-2">
+                  <p>Please click the following link to download and read the addendum for Comstor contract.</p>
+                  <a target="blank"
+                    href="https://synnexcorp-my.sharepoint.com/:b:/g/personal/carlosalv_synnex_com/EcF8P6OGIsZEs4_-iWFxRJkBB7oPVilZr-HQehPA-hS9eA?e=ZmygEN">Adendum</a>
+                  <hr class="my-2">
+                  <p>If want to know more about the operational model for Comstor MSLA please download the booklet in
+                    the following link.</p>
+                  <a target="blank"
+                    href="https://synnexcorp-my.sharepoint.com/:b:/g/personal/carlosalv_synnex_com/ERHMUK6oKFxPpDL5Zi9WfhUBneuDEBYSs92QYZKCS6vOag?e=Qv6v2d">MSLA
+                    Comstor booklet</a>
+                </div>
+              </div>
+              <div class="col">
+                <br class="my-5">
+                <div class="card">
+                  <div class="card-header">
+                    MSLA Umbrella Insights
+                  </div>
+                  <div class="card-body">
+                    <form class="needs-validation" novalidate>
+
+                      <div class="row">
+                        <div class="col">
+                          <label for="taxId">Tax ID:</label>
+                          <input type="number" class="form-control" id="taxId" placeholder="Tax ID" required>
+                        </div>
+                      </div>
+                      <br class="my-3">
+                      <div class="form-row">
+                        <div class="col-md-4 mb-3">
+                          <label for="country">Country</label>
+                          <input type="text" class="form-control" id="country" placeholder="Country" required>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                          <label for="city">City</label>
+                          <input type="text" class="form-control" id="city" placeholder="City" required>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                          <label for="telephone">Telephone</label>
+                          <input type="telephone" class="form-control" id="telephone" placeholder="Telephone"
+                            aria-describedby="inputGroupPrepend" required>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label for="selectQuestionOne">Are you requesting the activation of the MSLA Umbrella Insights
+                          Portal for your operation?</label>
+                        <select id="selectQuestionOne" class="custom-select" required>
+                          <option value="">Choose an option</option>
+                          <option value="yes">Yes</option>
+                          <option value="no">No</option>
+                        </select>
+                      </div>
+                      <div class="form-group">
+                        <label for="selectQuestionTwo">Have you completed the requirements defined by Cisco for the
+                          solution under MSLA Program ?
+                        </label>
+                        <select id="selectQuestionTwo" class="custom-select" required>
+                          <option value="">Choose an option</option>
+                          <option value="yes">Yes</option>
+                          <option value="no">No</option>
+                        </select>
+                      </div>
+                      <div class="form-row">
+                        <div class="col">
+                          <label for="estimate">What is your estimated maximum number of monthly active licenses for the
+                            next 12 months?</label>
+                          <input type="number" class="form-control" id="estimate" placeholder="Qty of licenses"
+                            required>
+                        </div>
+                      </div>
+                      <br class="my-2">
+                      <div class="row">
+                        <div class="col">
+                          <label for="estimate">What is the requested start date of your portal?</label>
+                          <input type="date" class="form-control" id="estimate" aria-describedby="estimateHelp"
+                            placeholder="Expected date" required>
+                          <small id="estimateHelp" class="form-text text-muted">Consider that activation process usually
+                            takes from 3 to 5 days.</small>
+                        </div>
+                      </div>
+                      <br class="my-2">
+                      <div class="form-row">
+                        <div class="col">
+                          <label for="name">What is the name & email of your Cisco Partner Account Manager?</label>
+                        </div>
+                      </div>
+                      <div class="form-row">
+                        <div class="col-md-6">
+                          <input type="text" class="form-control" id="name" placeholder="Account Manager Name" required>
+                        </div>
+                        <div class="col-md-6">
+                          <input type="email" class="form-control" id="email" placeholder="Account Manager Email"
+                            required>
+                        </div>
+                      </div>
+                      <div class="form-row">
+                        <div class="col">
+                          <label for="deal-ID"> Do you have a deal ID for the activation of you MSLA Program for this
+                            solution?</label>
+                          <input type="number" class="form-control" id="deal-ID" aria-describedby="deal-IDHelp"
+                            placeholder="Cisco Deal ID (Optional)">
+                          <small id="deal-IDHelp" class="form-text text-muted">If there is a Deal ID, please,
+                            inform.</small>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label for="selectQuestionThree">Are you going to use Westcon Comstor SOC White Label Services
+                          for this offering?
+                        </label>
+                        <select id="selectQuestionThree" class="custom-select" required>
+                          <option value="">Choose an option</option>
+                          <option value="yes">Yes</option>
+                          <option value="no">No</option>
+                        </select>
+                      </div>
+                      <div class="form-group">
+                        <label for="selectQuestionFour">Please, confirm commitiment to send by the 5th day of each month
+                          to fill the usage report and send it to the Comstor point of contact.
+                        </label>
+                        <select id="selectQuestionFour" class="custom-select" required>
+                          <option value="">Choose an option</option>
+                          <option value="yes">Agreed</option>
+                          <option value="no">Not Agreed</option>
+                        </select>
+                      </div>
+                      <div class="form-group">
+                        <label for="selectQuestionFour">If the estimated number monthly active licenses increase,
+                          please, communicate as soon as possible to your Comstor point of contact.</label>
+                        <select id="selectQuestionFour" class="custom-select" required>
+                          <option value="">Choose an option</option>
+                          <option value="yes">Agreed</option>
+                          <option value="no">Not Agreed</option>
+                        </select>
+                      </div>
+                      <hr class="my-2">
+
+                      <div class="form-row">
+                        <label for="country">Usage report responsable</label>
+                      </div>
+
+                      <div class="form-row">
+                        <div class="col-md-4 mb-3">
+                          <label for="contactName">Name</label>
+                          <input type="text" class="form-control" id="contactName" placeholder="Full name" required>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                          <label for="contactEmail">Email</label>
+                          <input type="email" class="form-control" id="contactEmail" placeholder="email" required>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                          <label for="contactTelephone">Telephone</label>
+                          <input type="telephone" class="form-control" id="contactTelephone" placeholder="Telephone"
+                            aria-describedby="inputGroupPrepend" required>
+                        </div>
+                      </div>
+                      <button class="btn btn-success btn-md" type="submit">Submit form</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="may-6">
+      </div>
+    </div>
+  </div>
+</body>
+<footer class="footer">
+  <br class="may-6">
+</footer>
+<script>
+
+  // Example starter JavaScript for disabling form submissions if there are invalid fields
+  (function () {
+
+
+
+
+    'use strict';
+    window.addEventListener('load', function () {
+      // Fetch all the forms we want to apply custom Bootstrap validation styles to
+      var forms = document.getElementsByClassName('needs-validation');
+      // Loop over them and prevent submission
+      var validation = Array.prototype.filter.call(forms, function (form) {
+        form.addEventListener('submit', function (event) {
+          if (form.checkValidity() === false) {
+            event.preventDefault();
+            event.stopPropagation();
+          }
+          form.classList.add('was-validated');
+        }, false);
+      });
+    }, false);
+  })();
+</script>
+
+</html>
